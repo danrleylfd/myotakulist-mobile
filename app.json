@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "MyOtakuList",
+    "slug": "MyOtakuList",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "userInterfaceStyle": "light",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mobile.myotakulist",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "userInterfaceStyle": "light",
+      "package": "com.mobile.myotakulist",
+      "versionCode": 1
+    }
+  }
+}
